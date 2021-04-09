@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+ul,
+li {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+a:hover {
+	outline: none;
+}
+
+body {
+	font-family: Montserrat;
+}
+
+.header {
+	color: #fff;
+	background: url(img/Design.png), #2f2f2f;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 800px;
+	width: 100%;
+}
+.nav {
+	padding: 45px 15px 0 60px;
+}
+.navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
+	outline: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+.navbar-brand:hover {
+	color: #ffc200;
+}
+.nav-link {
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 55px;
+}
+.nav-link:hover {
+	color: #ffc200;
+}
+.title-box {
+	padding-top: 142px;
+	max-width: 600px;
+}
+.title_h {
+	color: #ffc200;
+	font-family: Grand Hotel, cursive;
+	font-size: 105px;
+	margin: 0;
+	margin-bottom: 5px;
+}
+.text_p {
+	color: #ffffff;
+	margin: 0;
+	margin-bottom: 30px;
+}
+.title-btn {
+	color: #2f2f2f;
+	font-size: 22px;
+	font-weight: bold;
+	background-color: #ffc200;
+	width: 325px;
+	padding: 15px 60px;
+	border-radius: 10px;
+}
+.main {
+	padding-bottom: 200px;
+}
+.main_title {
+	color: #333333;
+	font-size: 80px;
+	font-family: Grand Hotel;
+	padding-top: 140px;
+	margin-bottom: 50px;
+}
+.main_text {
+	font-size: 25px;
+	margin-bottom: 80px;
+}
+.card {
+	max-width: 240px;
+	margin: auto;
+	padding: 0;
+	border: none;
+}
+.card-img {
+	max-width: 240px;
+	max-height: 240px;
+	border-radius: 50px;
+	margin: auto;
+}
+.card-title {
+	font-size: 45px;
+	font-family: Grand Hotel;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.card-text {
+	font-size: 16px;
+}
+
+/*Taste-block*/
+.taste {
+	background: url(img/taste-background.png);
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+.taste .container {
+	padding-top: 125px;
+}
+.taste-img {
+	max-width: 420px;
+	max-width: 420px;
+	overflow: hidden;
+	border-radius: 50px;
+}
+.taste-img img {
+	width: 100%;
+	height: 100%;
+}
+.oriental-box {
+	padding-top: 60px;
+}
+.oriental-text {
+	color: #ffffff;
+	font-size: 20px;
+	margin: 0;
+	margin-bottom: 30px;
+}
+.stat {
+	background: url(img/statistics-background.png), #2f2f2f;
+	height: 800px;
+	width: 100%;
+	background-size: 92%;
+	background-repeat: no-repeat;
+}
+.stat_title {
+	color: #ffc200;
+	font-size: 80px;
+	font-family: Grand Hotel;
+	padding-top: 100px;
+	margin-bottom: 0;
+}
+.stat_text {
+	color: #ffffff;
+	font-size: 25px;
+	margin-bottom: 80px;
+}
+.stat_card {
+	height: 200px;
+	width: 200px;
+	border: 5px solid #ffffff;
+	border-radius: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.st_title {
+	color: #ffc200;
+	font-size: 45px;
+	font-weight: bold;
+}
+.st_text {
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: bolder;
+}
+/*Chicken-block*/
+
+.chicken {
+	background: url(img/back.png), #ffffff;
+	height: 750px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: top;
+}
+.chicken .container {
+	padding-top: 100px;
+}
+.chicken-img {
+	max-width: 420px;
+	max-width: 420px;
+	overflow: hidden;
+	border-radius: 50px;
+}
+.chicken_img img {
+	width: 100%;
+	height: 100%;
+}
+.chicken_box {
+	padding-top: 60px;
+}
+.chicken_h {
+	color: #ffc200;
+	font-family: Grand Hotel;
+	font-size: 80px;
+	margin: 0;
+	margin-bottom: 5px;
+}
+.chicken_text {
+	color: #ffffff;
+	font-size: 20px;
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+/*Senora*/
+
+.senora {
+	color: #333333;
+	background: url(img/senora.png);
+	height: 800px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.senora_text {
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+.senora_title {
+	font-size: 80px;
+	font-family: Grand Hotel;
+	margin-bottom: 0;
+}
+/*Subscribe*/
+.sub {
+	color: #333333;
+	background: url(img/sub_background.png), #ffffff;
+	height: 800px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.sub_title {
+	font-size: 80px;
+	font-family: Grand Hotel;
+	margin-bottom: 0;
+}
+.sub_text {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+.input_email {
+	height: 50px;
+	width: 550px;
+	border: none;
+	border-radius: 5px 0 0 5px;
+	padding-left: 20px;
+	box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.1);
+	outline: none;
+}
+.sub-btn {
+	height: 50px;
+	color: #2f2f2f;
+	font-size: 22px;
+	font-weight: bold;
+	background-color: #ffc200;
+	width: 220px;
+	border: none;
+	border-radius: 0 5px 5px 0;
+	box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.1);
+}
+footer {
+	color: #ffffff;
+	background-color: #333333;
+	height: 800px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.f_box {
+	width: 350px;
+}
+.footer_title {
+	display: block;
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-bottom: 20px;
+	margin: 0;
+}
+.footer_text {
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+.footer_text a {
+	color: #ffffff;
+	font-size: 18px;
+	text-decoration: none;
+}
+.icons {
+	padding-top: 10px;
+}
+.media_img {
+	padding-right: 10px;
+}

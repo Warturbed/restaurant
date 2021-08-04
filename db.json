@@ -57,15 +57,5 @@
             "height": 1010,
             "thickness": 145
         }
-    ],
-    "flatlist": [
-        {   
-            "id": "0",
-            "img": "../img/flat-img.png",
-            "rooms": "3-комнатная №104",
-            "size": "63,1",
-            "floor": 1,
-            "price": 6630500
-        }
-     ]
+    ]
 }
